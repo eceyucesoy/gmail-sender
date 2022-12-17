@@ -7,6 +7,7 @@ email_password = 'your_password'
 email_receiver = 'email_receiver'
 subject = 'your_subject'
 body = 'Hello, this mail is sent via python -esy!'
+
 em = EmailMessage()
 em['from'] = email_sender
 em['to'] = email_receiver
